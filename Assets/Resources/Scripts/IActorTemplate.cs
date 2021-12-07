@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public interface IActorTemplate {
-	int sendDamage();
+	int SendDamage();
 	void TakeDamage(int incomingDamage);
 	void Die();
 	void ActorStates();
