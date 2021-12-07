@@ -6,5 +6,5 @@ public interface IActorTemplate {
 	int SendDamage();
 	void TakeDamage(int incomingDamage);
 	void Die();
-	void ActorStates();
+	void ActorStats(SOActorModel actorModel);
 }

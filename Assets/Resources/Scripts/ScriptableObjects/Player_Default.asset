@@ -11,11 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 238ebaf5f031e4f48943ea6ec50a65be, type: 3}
   m_Name: Player_Default
   m_EditorClassIdentifier: 
-  actorName: 
-  attackType: 0
-  description: 
-  health: 0
-  speed: 0
-  hitPower: 0
-  actor: {fileID: 0}
-  actorsBullets: {fileID: 0}
+  actorName: Player
+  attackType: 1
+  description: Players Default Ship
+  health: 1
+  speed: 120
+  hitPower: 1
+  actor: {fileID: 1931151369388968, guid: f1d91212c774c554bb6b537fed18d787, type: 2}
+  actorsBullets: {fileID: 1893230970120318, guid: b20b1ee6acbb50544b17fb3d4eca0507,
+    type: 2}
